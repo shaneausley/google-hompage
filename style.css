@@ -81,6 +81,10 @@ li a {
 	color: #797979;
 }
 
+li a:hover {
+	text-decoration: underline;
+}
+
 li {
 	float: right;
 }
@@ -91,4 +95,24 @@ position: absolute;
     background-color: #f2f2f2;
     width: 100%;
     height: 35px;
+}
+
+#submit {
+	border-style: none;
+	margin-left: 7px;
+	margin-right: 7px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: bold;
+	color: #797979;
+	background-color: #f2f2f2
+}
+
+
+
+#submit:hover {
+	color: #000000;
+	border-style: solid;
 }
